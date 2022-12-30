@@ -26,6 +26,7 @@ body {
 
 .search {
   position: relative;
+  animation: success-show 0.5s cubic-bezier(0.25, 0.75, 0.5, 1.25);
 
   input {
     border: 1px solid rgba(0, 0, 0, 0.08);
@@ -53,6 +54,7 @@ body {
   overflow: auto;
   height: calc(100% - 130px);
   margin-top: 30px;
+  animation: success-show 0.5s cubic-bezier(0.25, 0.75, 0.5, 1.25);
 
   li {
     display: flex;
@@ -114,6 +116,7 @@ body {
 }
 
 .send-invite-btn {
+  margin-top: 5px;
   background-color: rgb(251, 80, 0);
   padding: 16px 15px;
   border-radius: 15px;
