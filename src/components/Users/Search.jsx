@@ -6,7 +6,7 @@ export const Search = ({ search, onTypeSearch }) => {
       </svg>
       <input
         type="text"
-        placeholder="Найти пользователя..."
+        placeholder="Find a user..."
         value={search}
         onChange={(e) => {
           onTypeSearch(e.target.value)
